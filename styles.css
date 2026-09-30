@@ -63,6 +63,7 @@ a:hover {
 
 .nav-links {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 22px;
   font-size: 0.96rem;
@@ -214,7 +215,8 @@ p {
   gap: 30px;
 }
 
-.research-list {
+.research-list,
+.language-list {
   margin: 0;
   padding-left: 1.1em;
   display: grid;
