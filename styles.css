@@ -210,6 +210,25 @@ p {
   image-rendering: pixelated;
 }
 
+.publications-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 20px;
+}
+
+.publications-heading h2,
+.publications-heading p {
+  margin: 0;
+}
+
+.author-highlight {
+  padding: 0.05em 0.2em;
+  border-radius: 3px;
+  background-color: color-mix(in srgb, var(--accent) 35%, transparent);
+  color: inherit;
+}
+
 .content-list {
   display: grid;
   gap: 30px;
